@@ -1,0 +1,150 @@
+<?xml version="1.0" ?>
+<robot name="Robot_Gantry_Gazebo" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find robot_gantry_description)/urdf/materials.xacro" />
+<xacro:include filename="$(find robot_gantry_description)/urdf/Robot_Gantry_Gazebo.trans" />
+<xacro:include filename="$(find robot_gantry_description)/urdf/Robot_Gantry_Gazebo.gazebo" />
+<link name="world" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.23999999999999988 0.24 -0.019999999999999993" rpy="0 0 0"/>
+    <mass value="12.057599999999999"/>
+    <inertia ixx="0.586803" iyy="0.233114" izz="0.816701" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="z_axis_1">
+  <inertial>
+    <origin xyz="0.020000000000000073 -2.7755575615628914e-17 3.469446951953614e-18" rpy="0 0 0"/>
+    <mass value="1.8840000000000001"/>
+    <inertia ixx="0.002653" iyy="0.002512" izz="0.000644" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.26 -0.24 -0.02" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/z_axis_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.26 -0.24 -0.02" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/z_axis_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="y_axis_1">
+  <inertial>
+    <origin xyz="8.326672684688674e-17 0.24 0.020000000000000007" rpy="0 0 0"/>
+    <mass value="6.0287999999999995"/>
+    <inertia ixx="0.116557" iyy="0.001608" izz="0.116557" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.24 0.0 -0.0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/y_axis_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.24 0.0 -0.0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/y_axis_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="End_effector_1">
+  <inertial>
+    <origin xyz="0.13099109800064435 -0.24500143295346233 -0.2710613664488455" rpy="0 0 0"/>
+    <mass value="1.3353102876458012"/>
+    <inertia ixx="0.001431" iyy="0.001636" izz="0.001388" ixy="-0.0" iyz="0.0" ixz="0.000103"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.18 -0.485 -0.225" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/End_effector_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.18 -0.485 -0.225" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/End_effector_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="stand_1">
+  <inertial>
+    <origin xyz="0.23668000000001682 0.24000000000000057 -0.024719322232492645" rpy="0 0 0"/>
+    <mass value="9.201122274860015"/>
+    <inertia ixx="0.317662" iyy="0.31766" izz="0.629215" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.0 0.0 0.04" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/stand_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.04" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="file:///home/george/meshes/stand_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<!-- Add a joint to align the base_link with the world frame -->
+<joint name="world_base_joint" type="fixed">
+  <parent link="world"/>
+  <child link="base_link"/>
+  <origin xyz="0 1 0.15" rpy="0 0 0"/>
+</joint>
+
+<joint name="y_joint" type="prismatic">
+  <origin xyz="0.02 0.24 0.02" rpy="0 0 0"/>
+  <parent link="y_axis_1"/>
+  <child link="z_axis_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+  <limit upper="0.175" lower="-0.175" effort="100" velocity="100"/>
+</joint>
+
+<joint name="x_joint" type="prismatic">
+  <origin xyz="0.24 0.0 0.0" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="y_axis_1"/>
+  <axis xyz="1.0 0.0 -0.0"/>
+  <limit upper="0.18" lower="-0.18" effort="100" velocity="100"/>
+</joint>
+
+<joint name="z_joint" type="prismatic">
+  <origin xyz="-0.08 0.245 0.205" rpy="0 0 0"/>
+  <parent link="z_axis_1"/>
+  <child link="End_effector_1"/>
+  <axis xyz="0.0 -0.0 1.0"/>
+  <limit upper="-0.003" lower="-0.05" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid_9" type="fixed">
+  <origin xyz="0.0 0.0 -0.04" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="stand_1"/>
+</joint>
+
+</robot>
