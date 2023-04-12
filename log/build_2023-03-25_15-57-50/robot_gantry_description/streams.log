@@ -1,0 +1,41 @@
+[0.008s] Invoking command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description -- -j16 -l16
+[0.029s] Invoked command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description -- -j16 -l16
+[0.045s] Invoking command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description
+[0.048s] -- Install configuration: ""
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo.xacro
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/materials.xacro
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo_old.xacro
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo.gazebo
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo.trans
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/controller.launch
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/controller.launch.py
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gantry.rviz
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gazebo.launch
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gantry.launch.py
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gazebo.launch.py
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/controller.yaml
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/display.launch
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes
+[0.048s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/stand_1.stl
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/z_axis_1.stl
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/base_link.stl
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/End_effector_1.stl
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/y_axis_1.stl
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/ament_index/resource_index/package_run_dependencies/robot_gantry_description
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/ament_index/resource_index/parent_prefix_path/robot_gantry_description
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/ament_prefix_path.sh
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/ament_prefix_path.dsv
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/path.sh
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/path.dsv
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.bash
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.sh
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.zsh
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.dsv
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/package.dsv
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/ament_index/resource_index/packages/robot_gantry_description
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/cmake/robot_gantry_descriptionConfig.cmake
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/cmake/robot_gantry_descriptionConfig-version.cmake
+[0.049s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/package.xml
+[0.050s] Invoked command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description

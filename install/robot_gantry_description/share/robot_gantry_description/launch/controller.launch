@@ -1,0 +1,9 @@
+<launch>
+
+<rosparam file="$(find Robot_Gantry_Gazebo_description)/launch/controller.yaml" command="load"/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="Robot_Gantry_Gazebo" args="Slider 3_position_controller Slider 4_position_controller Slider 7_position_controller joint_state_controller "/>
+<node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
+  <remap from="/joint_states" to="/Robot_Gantry_Gazebo/joint_states"/>
+</node>
+
+</launch>

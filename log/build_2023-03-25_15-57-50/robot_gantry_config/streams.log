@@ -1,0 +1,41 @@
+[0.005s] Invoking command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config': AMENT_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:/home/george/ros2_ws/install/test_gantry_config:/home/george/ros2_ws/install/stepper_driver:/home/george/ros2_ws/install/robot_gantry_config:/home/george/ros2_ws/install/robot_gantry_description:/opt/ros/humble /usr/bin/cmake --build /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config -- -j16 -l16
+[0.022s] Invoked command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config' returned '0': AMENT_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:/home/george/ros2_ws/install/test_gantry_config:/home/george/ros2_ws/install/stepper_driver:/home/george/ros2_ws/install/robot_gantry_config:/home/george/ros2_ws/install/robot_gantry_description:/opt/ros/humble /usr/bin/cmake --build /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config -- -j16 -l16
+[0.033s] Invoking command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config': AMENT_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:/home/george/ros2_ws/install/test_gantry_config:/home/george/ros2_ws/install/stepper_driver:/home/george/ros2_ws/install/robot_gantry_config:/home/george/ros2_ws/install/robot_gantry_description:/opt/ros/humble /usr/bin/cmake --install /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config
+[0.037s] -- Install configuration: ""
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/ament_index/resource_index/package_run_dependencies/robot_gantry_config
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/ament_index/resource_index/parent_prefix_path/robot_gantry_config
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/environment/ament_prefix_path.sh
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/environment/ament_prefix_path.dsv
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/environment/path.sh
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/environment/path.dsv
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/local_setup.bash
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/local_setup.sh
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/local_setup.zsh
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/local_setup.dsv
+[0.037s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/package.dsv
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/ament_index/resource_index/packages/robot_gantry_config
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/cmake/robot_gantry_configConfig.cmake
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/cmake/robot_gantry_configConfig-version.cmake
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/package.xml
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/rsp.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/static_virtual_joint_tfs.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/warehouse_db.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/spawn_controllers.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/moveit_rviz.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/setup_assistant.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/demo.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/launch/move_group.launch.py
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/ros2_controllers.yaml
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/kinematics.yaml
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/moveit_controllers.yaml
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/initial_positions.yaml
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/Robot_Gantry_Gazebo.ros2_control.xacro
+[0.038s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/moveit.rviz
+[0.039s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/Robot_Gantry_Gazebo.urdf.xacro
+[0.039s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/Robot_Gantry_Gazebo.srdf
+[0.039s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/pilz_cartesian_limits.yaml
+[0.039s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/config/joint_limits.yaml
+[0.039s] -- Up-to-date: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_config/share/robot_gantry_config/.setup_assistant
+[0.040s] Invoked command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config' returned '0': AMENT_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description:/home/george/ros2_ws/install/test_gantry_config:/home/george/ros2_ws/install/stepper_driver:/home/george/ros2_ws/install/robot_gantry_config:/home/george/ros2_ws/install/robot_gantry_description:/opt/ros/humble /usr/bin/cmake --install /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_config

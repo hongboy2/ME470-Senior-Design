@@ -1,0 +1,152 @@
+[0.007s] Invoking command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/george/robot_gantry/ME470-Senior-Design/gantry_description -DCMAKE_INSTALL_PREFIX=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description
+[0.037s] -- The C compiler identification is GNU 11.3.0
+[0.067s] -- The CXX compiler identification is GNU 11.3.0
+[0.070s] -- Detecting C compiler ABI info
+[0.106s] -- Detecting C compiler ABI info - done
+[0.110s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.110s] -- Detecting C compile features
+[0.111s] -- Detecting C compile features - done
+[0.112s] -- Detecting CXX compiler ABI info
+[0.154s] -- Detecting CXX compiler ABI info - done
+[0.159s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.159s] -- Detecting CXX compile features
+[0.159s] -- Detecting CXX compile features - done
+[0.160s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.253s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.311s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.347s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.349s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.375s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.379s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.386s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.456s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.458s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.483s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.490s] -- Looking for pthread.h
+[0.533s] -- Looking for pthread.h - found
+[0.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.571s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.572s] -- Found Threads: TRUE  
+[0.681s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.682s] -- Checking for module 'bullet>=2.82'
+[0.689s] --   Found bullet, version 3.05
+[0.741s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.765s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.779s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.796s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.807s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.810s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.815s] -- Searching for dependencies of ignition-math6
+[0.816s] -- Looking for OGRE...
+[0.816s] -- OGRE_PREFIX_WATCH changed.
+[0.819s] -- Checking for module 'OGRE'
+[0.825s] --   Found OGRE, version 1.9.0
+[0.841s] -- Found Ogre Ghadamon (1.9.0)
+[0.847s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.852s] -- Looking for OGRE_Paging...
+[0.855s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.855s] -- Looking for OGRE_Terrain...
+[0.858s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.858s] -- Looking for OGRE_Property...
+[0.861s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.861s] -- Looking for OGRE_RTShaderSystem...
+[0.864s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.864s] -- Looking for OGRE_Volume...
+[0.867s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.867s] -- Looking for OGRE_Overlay...
+[0.869s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.929s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.930s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.930s] -- Searching for dependencies of ignition-transport8
+[0.940s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.946s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.949s] -- Checking for module 'libzmq >= 4'
+[0.956s] --   Found libzmq , version 4.3.4
+[0.973s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.977s] -- Checking for module 'uuid'
+[0.983s] --   Found uuid, version 2.37.2
+[0.998s] -- Found UUID: TRUE  
+[1.000s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.000s] -- Searching for dependencies of ignition-msgs5
+[1.010s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.013s] -- Checking for module 'tinyxml2'
+[1.019s] --   Found tinyxml2, version 9.0.0
+[1.036s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.037s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.037s] -- Searching for dependencies of ignition-common3
+[1.038s] -- Looking for dlfcn.h - found
+[1.038s] -- Looking for libdl - found
+[1.039s] -- Found DL: TRUE  
+[1.046s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.046s] -- Searching for <ignition-common3> component [graphics]
+[1.047s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.048s] -- Searching for dependencies of ignition-common3-graphics
+[1.048s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.050s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.050s] -- Searching for dependencies of ignition-fuel_tools4
+[1.088s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.093s] -- Checking for module 'jsoncpp'
+[1.099s] --   Found jsoncpp, version 1.9.5
+[1.115s] -- Found JSONCPP: TRUE  
+[1.118s] -- Checking for module 'libzip'
+[1.125s] --   Found libzip, version 1.7.3
+[1.140s] -- Found ZIP: TRUE  
+[1.141s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.141s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.141s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.144s] -- Gazebo version: 11.10
+[1.144s] -- Checking for module 'tbb'
+[1.150s] --   Found tbb, version 2021.5.0
+[1.171s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.221s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.223s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.223s] -- Added test 'lint_cmake' to check CMake code style
+[1.224s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.225s] -- Added test 'xmllint' to check XML markup files
+[1.225s] -- Configuring done
+[1.228s] -- Generating done
+[1.229s] -- Build files have been written to: /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description
+[1.238s] Invoked command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/george/robot_gantry/ME470-Senior-Design/gantry_description -DCMAKE_INSTALL_PREFIX=/home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description
+[1.238s] Invoking command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description -- -j16 -l16
+[1.259s] Invoked command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description -- -j16 -l16
+[1.274s] Invoking command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description
+[1.277s] -- Install configuration: ""
+[1.277s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf
+[1.277s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo.xacro
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/materials.xacro
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo_old.xacro
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo.gazebo
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//urdf/Robot_Gantry_Gazebo.trans
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/controller.launch
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/controller.launch.py
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gantry.rviz
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gazebo.launch
+[1.278s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gantry.launch.py
+[1.279s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/gazebo.launch.py
+[1.279s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/controller.yaml
+[1.279s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//launch/display.launch
+[1.279s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes
+[1.279s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/stand_1.stl
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/z_axis_1.stl
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/base_link.stl
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/End_effector_1.stl
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description//meshes/y_axis_1.stl
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/ament_index/resource_index/package_run_dependencies/robot_gantry_description
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/ament_index/resource_index/parent_prefix_path/robot_gantry_description
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/ament_prefix_path.sh
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/ament_prefix_path.dsv
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/path.sh
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/environment/path.dsv
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.bash
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.sh
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.zsh
+[1.281s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/local_setup.dsv
+[1.282s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/package.dsv
+[1.282s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/ament_index/resource_index/packages/robot_gantry_description
+[1.282s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/cmake/robot_gantry_descriptionConfig.cmake
+[1.282s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/cmake/robot_gantry_descriptionConfig-version.cmake
+[1.282s] -- Installing: /home/george/robot_gantry/ME470-Senior-Design/install/robot_gantry_description/share/robot_gantry_description/package.xml
+[1.283s] Invoked command in '/home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/george/robot_gantry/ME470-Senior-Design/build/robot_gantry_description
