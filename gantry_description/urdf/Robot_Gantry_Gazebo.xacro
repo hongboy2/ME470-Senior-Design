@@ -2,7 +2,6 @@
 <robot name="Robot_Gantry_Gazebo" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
 <xacro:include filename="$(find robot_gantry_description)/urdf/materials.xacro" />
-<xacro:include filename="$(find robot_gantry_description)/urdf/Robot_Gantry_Gazebo.trans" />
 <xacro:include filename="$(find robot_gantry_description)/urdf/Robot_Gantry_Gazebo.gazebo" />
 <link name="world" />
 <link name="base_link">
@@ -141,7 +140,7 @@
   <limit upper="-0.003" lower="-0.05" effort="100" velocity="100"/>
 </joint>
 
-<joint name="Rigid_9" type="fixed">
+<joint name="Rigid_joint" type="fixed">
   <origin xyz="0.0 0.0 -0.04" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="stand_1"/>

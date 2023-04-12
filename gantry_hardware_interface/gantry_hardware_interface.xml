@@ -1,0 +1,11 @@
+<library path="lib/libgantry_hardware_interface">
+  <class name="gantry_hardware_interface/GantryHardwareInterface"
+         type="gantry_hardware_interface::GantryHardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      A custom hardware interface for gantry robot.
+    </description>
+  </class>
+</library>
+
+

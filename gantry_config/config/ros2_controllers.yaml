@@ -5,59 +5,50 @@ controller_manager:
 
     x_group_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-      joints: 
-        - x_joint
 
     y_group_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-      joints: 
-        - y_joint
 
     z_group_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-      joints: 
-        - z_joint
 
     end_effector_group_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-      joints: 
-        - x_joint
-        - y_joint
-        - z_joint
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
 x_group_controller:
   ros__parameters:
+    joints: 
+      - x_joint    
     command_interfaces:
       - position
- 
     state_interfaces:
       - position
-
 y_group_controller:
   ros__parameters:
+    joints: 
+      - y_joint 
     command_interfaces:
       - position
-
     state_interfaces:
       - position
-      
 z_group_controller:
   ros__parameters:
+    joints: 
+      - z_joint 
     command_interfaces:
       - position
-
     state_interfaces:
       - position
- 
 end_effector_group_controller:
   ros__parameters:
+    joints: 
+      - x_joint
+      - y_joint
+      - z_joint 
     command_interfaces:
       - position
-
     state_interfaces:
       - position
-
-

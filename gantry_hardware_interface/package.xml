@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>gantry_hardware_interface</name>
+  <version>0.0.1</version>
+  <description>This is a hardware interface for gantry</description>
+  <maintainer email="georgezhai318129@gmail.com">George Zhai</maintainer>
+  <license>TODO: License declaration</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  
+  <depend>hardware_interface</depend>
+  <depend>pluginlib</depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  
+  <test_depend>ament_cmake_gmock</test_depend>
+  <test_depend>hardware_interface</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
