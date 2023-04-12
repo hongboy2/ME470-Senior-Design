@@ -14,6 +14,7 @@ find_package(rclcpp_lifecycle REQUIRED)
 
 add_library(gantry_hardware_interface SHARED
   src/gantry_hardware_interface.cpp
+  src/Stepper_Driver_TMC2208.cpp # Add this line
 )
 
 target_include_directories(gantry_hardware_interface PRIVATE

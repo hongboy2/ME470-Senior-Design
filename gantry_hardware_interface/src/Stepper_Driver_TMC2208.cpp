@@ -1,4 +1,4 @@
-#include "Stepper_Driver_TMC2208.hpp"
+#include "gantry_hardware_interface/Stepper_Driver_TMC2208.hpp"
 #include <iostream>
 #include <wiringPi.h>
 #include <unistd.h>

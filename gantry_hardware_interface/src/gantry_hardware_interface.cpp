@@ -1,7 +1,7 @@
 #include "gantry_hardware_interface/gantry_hardware_interface.hpp"
 #include "pluginlib/class_list_macros.hpp"
 #include <hardware_interface/system_interface.hpp>
-#include "Stepper_Driver_TMC2208.hpp"
+#include "gantry_hardware_interface/Stepper_Driver_TMC2208.hpp"
 #include "rclcpp/rclcpp.hpp"
 #include <hardware_interface/types/hardware_interface_type_values.hpp>
 #include <rclcpp_lifecycle/state.hpp>
